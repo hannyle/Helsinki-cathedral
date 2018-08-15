@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+@import "general.css";
+
+/*Media Queries*/
+/*Mobile*/
+@import "small.css";
+
+/*Tablets, Ipads*/
+@import "medium.css";
+
+/*Laptop, Desktop*/
+@import "large.css";

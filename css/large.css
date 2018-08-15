@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1025px) {
+  .section {
+    height: 60vh;
+    max-height: 30em;
+  }
+  /*Section1 + navigation*/
+  .heading {
+    font-size: 1.5em;
+  }
+  .hero-text h1 {
+    font-size: 2.5em;
+  }
+  .hero-text p,
+  a,
+  .content p,
+  .newstext p,
+  .gallery4 p {
+    font-size: 1.2em;
+  }
+  .hero-text p {
+    margin: 3% 2% 3% 10%;
+  }
+  /*All inputs*/
+  input {
+    font-size: 1em;
+  }
+  /*gallery 1 +2*/
+  div.gallery img {
+    display: inline-block;
+    width: 32.5%;
+  }
+  .smallimg2 {
+    margin-left: 1%;
+  }
+  .smallimg3 {
+    float: right;
+  }
+  /*Section2 : history + service*/
+  .section2 {
+    height: 60vh;
+    max-height: 30em;
+  }
+  .history,
+  .service {
+    width: 49.4%;
+    height: 100%;
+    display: inline-block;
+  }
+  .service {
+    float: right;
+  }
+  .content1 {
+    margin-left: 55%;
+  }
+  .content3 h2{font-szie: 3.5em;}
+  .content3 h3{font-size: 2em;}
+  
+  /*Latest News*/
+  .section4 {
+    height: 100%;
+    max-height: 120em;
+    padding: 3% 3%;
+  }
+  div.news {
+    display: inline-block;
+    width: 25%;
+    height: 50vh;
+    padding: 1%;
+    margin: 0 auto;
+  }
+  div.news img {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  /*Subscribe email*/
+  .gallery4 {
+    height: 30vh;
+    max-height: 20em;
+  }
+  .gallery4 h2 {
+    font-size: 1.8em;
+  }
+  .content4 {
+    padding-top: 3%;
+  }
+  /*Footer*/
+  .footer {
+    font-size: 1em;
+    height: 10vh;
+    max-height: 5em;
+  }
+  .footer div {
+    display: inline-block;
+    width: 32%;
+    margin-top: 2%;
+  }
+}

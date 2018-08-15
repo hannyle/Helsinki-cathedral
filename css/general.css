@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 10px 60px 0 60px;
+  background-color: #e6e6e6;
+}
+p.heading {
+  float: left;
+  color: black;
+  margin-left: 5%;
+  font-weight: bold;
+}
+.navigation {
+  overflow: hidden;
+  padding-right: 5%;
+}
+a {
+  float: right;
+  color: black;
+  text-decoration: none;
+  padding: 1%;
+}
+a:hover {
+  background-color: grey;
+  color: black;
+}
+.section {
+  box-sizing: border-box;
+  margin-bottom: 0.8em;
+  margin-top: 0.8em;
+  overflow: hidden;
+}
+/*Gallery*/
+.gallery {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.section1 {
+  background-image: url("https://i.imgur.com/9pNtc8F.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-color: white;
+  padding-top: 2%;
+}
+div.hero-text {
+  position: relative;
+  margin-right: 5%;
+  margin-top: 3%;
+  float: right;
+  text-align: right;
+}
+.hero-text p {
+  font-weight: bold;
+}
+input {
+  border-radius: 3em;
+  padding: 2%;
+  padding: 1% 2%;
+}
+/*Section2*/
+.history,
+.service {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.history {
+  background-image: url("https://i.imgur.com/KamUwYZ.jpg");
+  background-position: left;
+  background-color: white;
+}
+.service {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.imgur.com/46qMVPz.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.content {
+  position: absolute;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.content h2 {
+  margin-bottom: 2%;
+}
+.content2 {
+  margin-left: 10%;
+  color: white;
+}
+/*Section 3*/
+.section3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://i.imgur.com/53zzHFY.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.content3 {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.content3 h3 {
+  font-family: "Berkshire Swash", cursive;
+}
+/*Latest News*/
+.section4 {
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+}
+div.latestnews {
+  text-align: center;
+  margin-top: 1%;
+}
+div.news {
+  background-color: white;
+  border: 2px solid #e6e6e6;
+  border-radius: 0.5em;
+}
+div.news img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+div.newstext {
+  text-align: left;
+}
+.gallery4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://i.imgur.com/cwhQBqT.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  color: white;
+}
+.content4 {
+  position: relative;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.content4 p {
+  margin-top: 1%;
+}
+.email {
+  border: 1px solid white;
+  opacity: 0.4;
+}
+.subscribe {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+.footer div {
+  text-align: center;
+}
+.socialicons {
+  margin: 0 auto;
+}
